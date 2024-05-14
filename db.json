@@ -1,9 +1,326 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "cars": [
+    {
+      "id": 1,
+      "make": "Pontiac",
+      "model": "GTO",
+      "year": 1964,
+      "vin": "3VWJX7AJ7AM874891"
+    },
+    {
+      "id": 2,
+      "make": "Toyota",
+      "model": "Supra",
+      "year": 1993,
+      "vin": "WDCYC3HF4CX813836"
+    },
+    {
+      "id": 3,
+      "make": "Mercury",
+      "model": "Cougar",
+      "year": 1999,
+      "vin": "JTHBE1KS8A0515164"
+    },
+    {
+      "id": 4,
+      "make": "Jaguar",
+      "model": "XJ Series",
+      "year": 2000,
+      "vin": "1C4AJWAG9FL462998"
+    },
+    {
+      "id": 5,
+      "make": "Mercedes-Benz",
+      "model": "SLK-Class",
+      "year": 2007,
+      "vin": "1G6DC1E38C0180255"
+    },
+    {
+      "id": 6,
+      "make": "Subaru",
+      "model": "Outback",
+      "year": 2011,
+      "vin": "JN8AE2KPXF9187011"
+    },
+    {
+      "id": 7,
+      "make": "BMW",
+      "model": "Z4",
+      "year": 2010,
+      "vin": "WAUJT54B42N973423"
+    },
+    {
+      "id": 8,
+      "make": "Land Rover",
+      "model": "Range Rover",
+      "year": 1986,
+      "vin": "1N6AA0CC5BN526232"
+    },
+    {
+      "id": 9,
+      "make": "Audi",
+      "model": "riolet",
+      "year": 1995,
+      "vin": "JN1CV6EK6CM615101"
+    },
+    {
+      "id": 10,
+      "make": "Honda",
+      "model": "Fit",
+      "year": 2007,
+      "vin": "JTMHY7AJ5A5774597"
+    },
+    {
+      "id": 11,
+      "make": "Mercedes-Benz",
+      "model": "W126",
+      "year": 1983,
+      "vin": "WBA3T1C56FP296916"
+    },
+    {
+      "id": 12,
+      "make": "Infiniti",
+      "model": "G25",
+      "year": 2011,
+      "vin": "JN1CV6EK8BM299148"
+    },
+    {
+      "id": 13,
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "year": 2005,
+      "vin": "3D7LT2ET2AG399080"
+    },
+    {
+      "id": 14,
+      "make": "Dodge",
+      "model": "Ram",
+      "year": 2008,
+      "vin": "WDDNG7BB3AA287733"
+    },
+    {
+      "id": 15,
+      "make": "Volkswagen",
+      "model": "R32",
+      "year": 2004,
+      "vin": "KNADH5A34A6468857"
+    },
+    {
+      "id": 16,
+      "make": "Audi",
+      "model": "RS6",
+      "year": 2003,
+      "vin": "19VDE1F75FE241512"
+    },
+    {
+      "id": 17,
+      "make": "Pontiac",
+      "model": "LeMans",
+      "year": 1964,
+      "vin": "4T1BF1FK5FU244777"
+    },
+    {
+      "id": 18,
+      "make": "Ford",
+      "model": "Escape",
+      "year": 2004,
+      "vin": "WAUML54B13N068605"
+    },
+    {
+      "id": 19,
+      "make": "Ford",
+      "model": "Escort",
+      "year": 2004,
+      "vin": "4USCN53462L287155"
+    },
+    {
+      "id": 20,
+      "make": "GMC",
+      "model": "Vandura 1500",
+      "year": 1992,
+      "vin": "JM3KE2BE3E0980515"
+    },
+    {
+      "id": 21,
+      "make": "Jaguar",
+      "model": "XK",
+      "year": 2008,
+      "vin": "WVGEF9BP2DD139852"
+    },
+    {
+      "id": 22,
+      "make": "Hyundai",
+      "model": "Accent",
+      "year": 2007,
+      "vin": "WAUVC68E24A356009"
+    },
+    {
+      "id": 23,
+      "make": "Buick",
+      "model": "LaCrosse",
+      "year": 2011,
+      "vin": "19UYA42742A898277"
+    },
+    {
+      "id": 24,
+      "make": "Cadillac",
+      "model": "CTS-V",
+      "year": 2009,
+      "vin": "1FMJU1G5XAE288221"
+    },
+    {
+      "id": 25,
+      "make": "Nissan",
+      "model": "Altima",
+      "year": 2011,
+      "vin": "1FTMF1CW9AK993796"
+    },
+    {
+      "id": 26,
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "year": 2001,
+      "vin": "WAUKH94F18N565728"
+    },
+    {
+      "id": 27,
+      "make": "Hyundai",
+      "model": "Genesis",
+      "year": 2009,
+      "vin": "WAUGL68E45A099512"
+    },
+    {
+      "id": 28,
+      "make": "Chevrolet",
+      "model": "Suburban 2500",
+      "year": 2011,
+      "vin": "1GYFC26219R683948"
+    },
+    {
+      "id": 29,
+      "make": "Lamborghini",
+      "model": "Murciélago",
+      "year": 2006,
+      "vin": "WA1CKBFP4AA543834"
+    },
+    {
+      "id": 30,
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2000,
+      "vin": "JTDKTUD32ED073463"
+    },
+    {
+      "id": 31,
+      "make": "Pontiac",
+      "model": "Aztek",
+      "year": 2004,
+      "vin": "SCBLC37F84C398162"
+    },
+    {
+      "id": 32,
+      "make": "Hummer",
+      "model": "H1",
+      "year": 2003,
+      "vin": "3C6JD6CT2CG813171"
+    },
+    {
+      "id": 33,
+      "make": "Dodge",
+      "model": "Viper",
+      "year": 2002,
+      "vin": "1G4HR57Y67U019197"
+    },
+    {
+      "id": 34,
+      "make": "Mercedes-Benz",
+      "model": "SL-Class",
+      "year": 1985,
+      "vin": "WAUHF78P18A259580"
+    },
+    {
+      "id": 35,
+      "make": "Mitsubishi",
+      "model": "Chariot",
+      "year": 1985,
+      "vin": "3GYFNEEY7AS026350"
+    },
+    {
+      "id": 36,
+      "make": "Lincoln",
+      "model": "Continental Mark VII",
+      "year": 1985,
+      "vin": "WBA3X9C55ED194591"
+    },
+    {
+      "id": 37,
+      "make": "Pontiac",
+      "model": "GTO",
+      "year": 1974,
+      "vin": "5N1AR1NB3BC382628"
+    },
+    {
+      "id": 38,
+      "make": "Nissan",
+      "model": "Pathfinder",
+      "year": 2007,
+      "vin": "3VW467AT4DM546138"
+    },
+    {
+      "id": 39,
+      "make": "Lexus",
+      "model": "SC",
+      "year": 2008,
+      "vin": "1G6AB1RX7F0097391"
+    },
+    {
+      "id": 40,
+      "make": "Buick",
+      "model": "Park Avenue",
+      "year": 2001,
+      "vin": "2G4WC552X61625006"
+    },
+    {
+      "id": 41,
+      "make": "BMW",
+      "model": "Z4",
+      "year": 2006,
+      "vin": "SAJWA4EC9BM220767"
+    },
+    {
+      "id": 42,
+      "make": "GMC",
+      "model": "Savana 3500",
+      "year": 2012,
+      "vin": "1NXBE4EE5AZ577764"
+    },
+    {
+      "id": 43,
+      "make": "Volkswagen",
+      "model": "Golf III",
+      "year": 1994,
+      "vin": "1G6DV57V980192339"
+    },
+    {
+      "id": 44,
+      "make": "Jaguar",
+      "model": "S-Type",
+      "year": 2001,
+      "vin": "WAUKG98E76A705029"
+    },
+    {
+      "id": 45,
+      "make": "Chevrolet",
+      "model": "2500",
+      "year": 1994,
+      "vin": "1G6KF57972U109790"
+    },
+    {
+      "make": "Mercedes",
+      "model": "190E",
+      "year": "1991",
+      "vin": "625438degg367",
+      "id": 46
+    }
+  ]
 }
